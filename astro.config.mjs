@@ -6,5 +6,5 @@ export default defineConfig({
   site: "https://FrodoBaggins29.github.io/Positivus",
   integrations: [tailwind()],
   output: 'static',
-  adapter: github(),
+  
 });
