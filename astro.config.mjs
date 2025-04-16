@@ -8,5 +8,7 @@ export default defineConfig({
   base: '/Positivus',
   build: {
     exclude: ['/articles/search'], // Exclude this path
-  },
+   exclude: ['src/pages/404.astro'],
+ exclude: ['src/pages/about.astro'],
+   },
 })
