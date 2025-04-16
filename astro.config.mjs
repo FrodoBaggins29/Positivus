@@ -6,4 +6,7 @@ import tailwind from "@astrojs/tailwind";
 export default defineConfig({
   site: 'https://frodoBaggins29.github.io',
   base: '/Positivus',
+  build: {
+    exclude: ['/articles/search'], // Exclude this path
+  },
 })
