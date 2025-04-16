@@ -3,12 +3,12 @@ import { defineConfig } from 'astro/config';
 import tailwind from "@astrojs/tailwind";
 
 // Import the Vercel adapter
-import vercel from '@astrojs/vercel';
+import github from '@astrojs/github-pages';
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://positivustheme.vercel.app",
+  site: "https://frodobaggins29.github.io/Positivus",
   integrations: [tailwind()],
-  output: 'server',
-  adapter: vercel(),
+  output: 'static',
+  adapter: github(),
 });
